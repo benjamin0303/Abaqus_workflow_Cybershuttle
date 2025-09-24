@@ -29,4 +29,5 @@ additional_dependencies:
     - compilers
     - openmpi
     - wget
+    - numpy
   pip: []  
