@@ -1,5 +1,6 @@
 project:
   name: "Abaqus_workflow"
+  privacy: PUBLIC
   description: "Codes for Abaqus_workflow"
   homepage: "hhttps://github.com/benjamin0303/Abaqus_workflow_Cybershuttle"
   authors:
