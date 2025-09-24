@@ -16,7 +16,9 @@ workspace:
     gpu_mem: 1024
   model_collection: []
   data_collection: []
-  privacy: PUBLIC
+
+privacy: 
+  'PUBLIC'
  
 additional_dependencies:
   modules: []
