@@ -1,34 +1,28 @@
 project:
-  name: "Abaqus_workflow"
-  description: "Codes for Abaqus_workflow"
-  homepage: "hhttps://github.com/benjamin0303/Abaqus_workflow_Cybershuttle"
+  name: "Abaqus Workflow on Cybershuttle"
+  description: "Run Abaqus simulation on Cybershuttle"
+  homepage: https://github.com/benjamin0303/Abaqus_workflow_Cybershuttle
   authors:
     - jaewanp2@illinois.edu
   tags:
-    - Abaqus_workflow
-    - 3D_Lug
-  privacy: 
-    "PUBLIC"
- 
+    - cybershuttle
+    - Abaqus
+
 workspace:
+  location: /workspace
   resources:
-    min_cpu: 16
-    min_mem: 32000
-    min_gpu: 1
+    min_cpu: 4
+    min_gpu: 0
+    min_mem: 0
     gpu_mem: 1024
-  model_collection: []
+  model_collection:
+    - source: cybershuttle
+      identifier: cybershuttle-reference
+      mount_point: /cybershuttle_data/cybershuttle-reference
   data_collection: []
 
-
- 
 additional_dependencies:
-  modules: []
   conda:
     - python=3.10
     - pip
-    - make
-    - cmake
-    - compilers
-    - openmpi
-    - wget
-  pip: []  
+  pip: []
