@@ -1,6 +1,5 @@
 project:
   name: "Abaqus_workflow"
-  privacy: PUBLIC
   description: "Codes for Abaqus_workflow"
   homepage: "hhttps://github.com/benjamin0303/Abaqus_workflow_Cybershuttle"
   authors:
@@ -17,6 +16,7 @@ workspace:
     gpu_mem: 1024
   model_collection: []
   data_collection: []
+  privacy: PUBLIC
  
 additional_dependencies:
   modules: []
