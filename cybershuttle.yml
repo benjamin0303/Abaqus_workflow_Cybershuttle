@@ -7,6 +7,8 @@ project:
   tags:
     - Abaqus_workflow
     - 3D_Lug
+  privacy: 
+    "PUBLIC"
  
 workspace:
   resources:
@@ -17,8 +19,7 @@ workspace:
   model_collection: []
   data_collection: []
 
-privacy: 
-  'PUBLIC'
+
  
 additional_dependencies:
   modules: []
