@@ -1,0 +1,30 @@
+project:
+  name: "Abaqus_workflow"
+  description: "Codes for Abaqus_workflow"
+  homepage: "hhttps://github.com/benjamin0303/Abaqus_workflow_Cybershuttle"
+  authors:
+    - jaewanp2@illinois.edu
+  tags:
+    - Abaqus_workflow
+    - 3D_Lug
+ 
+workspace:
+  resources:
+    min_cpu: 16
+    min_mem: 32000
+    min_gpu: 1
+    gpu_mem: 1024
+  model_collection: []
+  data_collection: []
+ 
+additional_dependencies:
+  modules: []
+  conda:
+    - python=3.10
+    - pip
+    - make
+    - cmake
+    - compilers
+    - openmpi
+    - wget
+  pip: []  
